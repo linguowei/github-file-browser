@@ -1,0 +1,115 @@
+@import '~antd/dist/antd.css';
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+.App-header {
+  height: 62px;
+  line-height: 58px;
+  padding: 0 20px;
+  border-bottom: 1px solid #dbdbdb;
+}
+.App-header-title {
+  padding-left: 10px;
+  font-size: 20px;
+}
+.left-menu {
+  border-right: 1px solid #dddddd;
+}
+.left-menu ul {
+  padding: 0 10px 10px 10px;
+}
+.left-menu .title {
+  margin: 10px 10px 0 10px;
+  height: 34px;
+  font-size: 16px;
+  border-bottom: 1px solid #dbdbdb;
+}
+.left-menu .title .ant-badge {
+  float: right;
+}
+.left-menu .item {
+  height: 40px;
+  line-height: 36px;
+  padding: 2px;
+  background-color: #fff;
+  margin: 6px 0;
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px #ccc;
+  cursor: pointer;
+}
+.left-menu li .icon {
+  width: 10px;
+  height: 10px;
+  background-color: #108ee9;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 10px;
+}
+.left-menu li img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.content .ant-spin {
+  margin: 0 auto;
+  display: block;
+  margin-top: 80px;
+}
+.content .breadcrumb {
+  margin: 6px 20px 0 20px;
+  padding: 9px 10px;
+  border-bottom: 1px solid #dbdbdb;
+}
+.content .breadcrumb-root {
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.65);
+}
+.content ul {
+  padding: 20px;
+}
+.content ul .file-detail {
+  /* box-shadow: 0px 0px 1px 1px #d9d9d9;
+  border-radius: 5px;
+  background-color: #fff; */
+}
+.content li {
+  padding: 10px 3px;
+  border-bottom: 1px solid #dbdbdb;
+  font-size: 15px;
+}
+.content li .name{
+  cursor: pointer;
+}
+.content li .download {
+  float: right;
+}
+.content li .download a {
+  color: #565656;
+  font-size: 16px;
+}
+.content li pre {
+  padding: 5px;
+}
+.content li pre .string { 
+  color: #98c379; 
+}
+.content li pre .number { 
+  color: #fff; 
+}
+.content li pre .boolean { 
+  color: blue; 
+}
+.content li pre .null { 
+  color: #ae81ff; 
+}
+.content li pre .key { 
+  color: #e06c75; 
+}
+.content li .anme:hover {
+  color: #108ee9;
+}
+.content li > span {
+  margin-left: 5px;
+}
